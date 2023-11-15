@@ -14,6 +14,7 @@
 		C14091382B01A40C004C1979 /* Apple_musicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14091372B01A40C004C1979 /* Apple_musicTests.swift */; };
 		C14091422B01A40C004C1979 /* Apple_musicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14091412B01A40C004C1979 /* Apple_musicUITests.swift */; };
 		C14091442B01A40C004C1979 /* Apple_musicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14091432B01A40C004C1979 /* Apple_musicUITestsLaunchTests.swift */; };
+		C169DDD32B04101500F2B886 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C169DDD22B04101500F2B886 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C140913D2B01A40C004C1979 /* Apple musicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple musicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C14091412B01A40C004C1979 /* Apple_musicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_musicUITests.swift; sourceTree = "<group>"; };
 		C14091432B01A40C004C1979 /* Apple_musicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_musicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C169DDD22B04101500F2B886 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				C14091282B01A407004C1979 /* ContentView.swift */,
 				C140912A2B01A40C004C1979 /* Assets.xcassets */,
 				C140912C2B01A40C004C1979 /* Preview Content */,
+				C169DDD22B04101500F2B886 /* ListView.swift */,
 			);
 			path = "Apple music";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				C14091292B01A407004C1979 /* ContentView.swift in Sources */,
 				C14091272B01A407004C1979 /* Apple_musicApp.swift in Sources */,
+				C169DDD32B04101500F2B886 /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
