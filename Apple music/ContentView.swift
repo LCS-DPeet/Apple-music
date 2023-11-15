@@ -75,10 +75,45 @@ struct ContentView: View {
                 }
 
                 
-                // immage 2 of young lion
-                Text("young lion")
-                    .foregroundStyle(.blue)
-                
+                // image 2 of young lion (continue playing section)
+                ZStack {
+                    Rectangle()
+                        .fill(Color(hue: 2, saturation: 0, brightness: 11/100))
+                        .frame(width: 375, height: 50)
+                    .cornerRadius(9)
+              
+                    HStack {
+                        
+                        Image("youngLion")
+                        .resizable()
+                        .scaledToFit()
+                    .frame(width: 50)
+                    
+                        
+                    .padding()
+    
+                        Text("Young Lion")
+                            .font(.title3)
+                            .foregroundStyle(.white)
+                        
+                      Spacer()
+                        
+                        Image(systemName: "play.fill")
+                            .foregroundColor(.white)
+                        
+                        Image("skippButton")
+                            .resizable()
+                            .scaledToFit()
+                        .frame(width: 25)
+                        
+                        .padding()
+                            
+                    }
+                    
+                   
+                }
+                    
+            
                 // last played section
                 Text("image Young Lion pause and skipp buttons")
                     .foregroundStyle(.white)
