@@ -34,13 +34,13 @@ struct ContentView: View {
                     Image("Image")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 100)
+                        .frame(width: 50)
                 }
                 
                 List {
                     Group {
                         
-                        
+                        // All the code for the button sections
                        ListView()
                     
                     }
@@ -49,46 +49,31 @@ struct ContentView: View {
                 }
                 .listStyle(.plain)
                 
-                
-                Text("Playlists")
-                    .foregroundStyle(.white)
-                
-                //Artists
-                Text("Artists ")
-                    .foregroundStyle(.white)
-                
-                //albums
-                Text("Albums ")
-                    .foregroundStyle(.white)
-                
-                //Songs
-                Text("Songs ")
-                    .foregroundStyle(.white)
-                
-                // Made for you
-                Text("Made for You")
-                    .foregroundStyle(.white)
-                
-                //genres
-                Text("Genres")
-                    .foregroundStyle(.white)
-                
-                //Compliations
-                Text("Compilations")
-                    .foregroundStyle(.white)
-                
-                //composers
-                Text("Composers ")
-                    .foregroundStyle(.white)
-                
+             
                 //recently added
-                Text("Recently Added")
-                    .font(.title2)
+                HStack {
+                    Text("Recently Added")
+                    .font(.largeTitle)
                     .foregroundStyle(.white)
+                    .fontWeight(.bold)
+                    Spacer()
+                }
                 
-                //image 1 of kings rock
-                Text("kings rock")
-                    .foregroundStyle(.blue)
+                   
+                //images on the bottem recently played
+                HStack {
+                    
+                    //kings rock
+                    Image("kingsRock")
+                        .resizable()
+                    .scaledToFit()
+                
+                    //young lion
+                Image("youngLionFace")
+                    .resizable()
+                    .scaledToFit()
+                }
+
                 
                 // immage 2 of young lion
                 Text("young lion")
