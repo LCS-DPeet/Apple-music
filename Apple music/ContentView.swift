@@ -112,16 +112,8 @@ struct ContentView: View {
                     
                    
                 }
-                    
-            
-                // last played section
-                Text("image Young Lion pause and skipp buttons")
-                    .foregroundStyle(.white)
-                    .font(.title2)
-                
-                //the bottom bar (needs to be in a h stack)
-                Text("Listen now browseradio library and search")
-                
+                    // the bottom buttons
+                BottemButtons()
             }
         }
     }
